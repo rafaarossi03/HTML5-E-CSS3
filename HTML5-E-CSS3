@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>   <!--cabeça, primeira linha-->
+        <meta charset ="utf-8">  <!--'utf-8 serve para que você possa colocar acentos sem dar erros-->
+        <title> minha pagina</title> <!--Adciona Titulo-->
+    </head>
+
+    <body> <!--'corpo'-->
+
+        <nav>           <!--Serve para inserir menus-->
+            <P>Minha Página</P>
+            <ul>       <!--Representa uma lista de itens em ordem--> 
+                <li><a href="#servicos">SERVIÇOS</a></li>  <!--Links de menu-->
+                <li><a href="#clientes">CLIENTES</a></li> 
+                <li><a href="#parceiros">PARCEIROS</a></li> 
+                <li><a href="#servicos">SERVICOS</a></li> 
+                <li><a href="#contato">CONTATO</a></li> 
+            </ul>
+        </nav>
+
+        <p>Minha primeira página</p>  <!--p serve para que você coloque paragrafo-->
+
+        <header> <!--'Titulo'-->
+            <h1>Minha Página</h1>  <!--h1 serve para você definir o tamanho, h2,h3 e assim vai-->
+            <p>Serviços de suporte</p>
+            </header>
+
+            <section id="servicos">
+                <h2>SERVIÇOS</h2>
+                <P>Oferecemos os melhores serviços em
+                    desenvolvimento de sites e aplicativos
+                </P>
+
+                <li>Sites:Criação e Manutenção</li>
+                <img src="img/servicos.jpg" width="200px">
+
+                <li>Desenvolvimento App Mobile</li>
+                <img src="img/app.jpg" width="200px">
+
+
+            </section>
+    
+            <section id="clientes">
+                <h2>CLIENTES</h2>
+                <p>Conheça os nossos clientes</p>
+                <div>     <!--Obs:esse div é usado apenas se quiser inserir mais de uma imagem-->
+                    <img src="img/imobsites.jpg" width="100px"/>
+                </div>
+                <div>
+                    <img src="img/Extreme.png" width="100px">
+                </div>
+                <div>
+                    <img src="https://images.prismic.io/tudo-saude-escale/0e3ec8bd-dc60-4862-93f5-bfcdafbe6c31_amil-logo-article.jpg?auto=compress,format&rect=0,160,1280,400&w=1280&h=400" width="100px">
+                </div>
+
+                 
+           </section>
+
+            <section id="parceiros">
+                <h2>PARCEIROS</h2>
+                <p>Temos a nossa gama de parceria em diversos estados</p>
+                <img src="img/mapa.jpg" width="300px"/>
+            </section>
+
+            <section id="time">
+                <h2>TIME</h2>
+                <p>Conheça o nosso time</p>
+                <img src="img/Time.jpg" width="300px"/>
+            </section>
+
+            <section id="contato">
+                <h2>Informações de Contato</h2>
+
+                <div>
+                    <img src="img/email.png" width="100px">
+                    <a>Contato@empresa.com</a>
+                </div>
+                
+                
+            </section>
+
+            <footer> <!--rodapé da pagina-->
+                <p>Desenvolvido por Rafael Rossi</p></p:>
+            </footer>
+
+    </body>
+
+    
+
+
+
+</html>
