@@ -29,3 +29,7 @@ p {
 .img_icon {
     margin-bottom: -15px;
 }
+
+li {
+    padding: 10px 0px;
+}
