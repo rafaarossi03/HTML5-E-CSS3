@@ -1,0 +1,31 @@
+body {
+  background: rgb(245, 119, 119);
+  margin-left: 20PX;
+  margin-right: 20px;   /*usado para criar as margem dos textos incluidos no site, ajuda a formatar melhor os espaçamentos */
+  
+}
+
+header {         /*Usado para alterar a margem do cabeçalho (MINHA PAGINA) após o menu */
+    margin-top: 70px;
+}
+
+h1 {
+    color:black;
+    font-family: fantasy;
+}
+
+h2 {
+font-family: fantasy;
+}
+
+img {
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 18px;
+}
+
+.img_icon {
+    margin-bottom: -15px;
+}
